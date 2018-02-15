@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="SogetiKegBot.NewDrinkerPage">
+	<ContentPage.Content>
+
+         <StackLayout Padding="20,10,20,10">
+        <Image x:Name="logo" WidthRequest="300" HorizontalOptions="StartAndExpand"/>
+        <!--Line -->
+        <BoxView WidthRequest="100" HeightRequest="2" Color="Black"/>
+
+        <!--<Button x:Name="button" Text="Pour!" Clicked="pourBeer"/> -->
+            <Label TextColor="Black" x:Name="startdrinking" Text="Before you get started on drinking we need some information about who you are. Please fill out the form below."/>
+            <Label TextColor="Black" Text="First Name:"/> 
+            <Entry TextColor="Black" x:Name="firstname"/>
+            <Label TextColor="Black" Text="Last Name:"/>
+            <Entry TextColor="Black" x:Name="lastname"/>
+
+            <Button x:Name="CameraButton" Text="Take a picture"/>
+            <Button BackgroundColor="Green" x:Name="saveInfo" Clicked="SaveInfo_Clicked" Text="Save"/>
+
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

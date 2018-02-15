@@ -28,6 +28,10 @@ namespace SogetiKegBot
             }
         }
 
+        public void newdrinker(object sender, EventArgs e){
+            Navigation.PushModalAsync(new NewDrinkerPage());
+        }
+
         //public void pourBeer(object sender, EventArgs e){
            // DisplayAlert("Alert","Here is some beer!","OK");
         //}

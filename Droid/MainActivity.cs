@@ -10,7 +10,7 @@ using Android.OS;
 
 namespace SogetiKegBot.Droid
 {
-    [Activity(Label = "SogetiKegBot.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation,
+    [Activity(Label = "SogetiKegBot.Droid", Icon = "@drawable/app", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation,
     ScreenOrientation = ScreenOrientation.Landscape)] //This controls orientation
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
